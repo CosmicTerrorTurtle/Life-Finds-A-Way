@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "life_finds_a_way:block/super_growth_soil_block"
+  }
+}

@@ -1,5 +1,8 @@
 package io.github.cosmic_terror_turtle.life_finds_a_way;
 
+import io.github.cosmic_terror_turtle.life_finds_a_way.block.ModBlocks;
+import io.github.cosmic_terror_turtle.life_finds_a_way.item.ModItemGroups;
+import io.github.cosmic_terror_turtle.life_finds_a_way.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,6 +16,8 @@ public class LifeFindsAWay implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerItems();
+		ModBlocks.registerBlocks();
 	}
 }

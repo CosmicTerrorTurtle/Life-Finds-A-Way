@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " F ",
+    "FGF",
+    " F "
+  ],
+  "key": {
+    "F": {
+      "item": "life_finds_a_way:super_growth_fertilizer"
+    },
+    "G": {
+      "item": "minecraft:grass_block"
+    }
+  },
+  "result": {
+    "item": "life_finds_a_way:super_growth_soil_block",
+    "count": 1
+  }
+}
