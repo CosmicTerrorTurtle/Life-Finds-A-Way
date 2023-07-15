@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "life_finds_a_way",
+	"version": "${version}",
+	"name": "Life Finds A Way",
+	"description": "This mod introduces super-growth-soil, which will make trees and plants grow to extreme sizes on their own.",
+	"authors": [
+		"Cosmic Terror Turtle"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/life_finds_a_way/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.cosmic_terror_turtle.life_finds_a_way.LifeFindsAWay"
+		],
+		"client": [
+			"io.github.cosmic_terror_turtle.life_finds_a_way.LifeFindsAWayClient"
+		],
+		"fabric-datagen": [
+			"io.github.cosmic_terror_turtle.life_finds_a_way.LifeFindsAWayDataGenerator"
+		]
+	},
+	"mixins": [
+		"life_finds_a_way.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
